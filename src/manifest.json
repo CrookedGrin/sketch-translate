@@ -4,14 +4,14 @@
 	"commands": [
 		{
 			"name": "translate",
-			"identifier": "translate",
+			"identifier": "translate-all",
 			"script": "./translate.js"
 		}
 	],
 	"menu": {
-		"title": "sketch-translate",
+		"title": "Sketch Translate",
 		"items": [
-			"translate"
+			"translate-all"
 		]
 	}
 }

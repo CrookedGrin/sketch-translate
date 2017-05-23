@@ -1,28 +1,31 @@
 {
-	"name": "sketch-translate",
-	"version": "1.0.0",
-	"description": "Automatically translate all text in your Sketch file to another language using Google Translate",
-	"main": "plugin.sketchplugin",
-	"scripts": {
-		"test": "test",
-		"build": "skpm build",
-		"publish": "skpm publish"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git@github.homeawaycorp.com:UX/sketch-translate.git"
-	},
-	"keywords": [
-		"translate",
-		"translation"
-	],
-	"author": "Michael Daross",
-	"license": "ISC",
-	"engines": {
-		"sketch": ">=3.0"
-	},
-	"manifest": "src/manifest.json",
-	"devDependencies": {
-		"skpm": "^0.9.10"
-	}
+  "name": "Live Translate",
+  "version": "1.0.0",
+  "description": "Automatically translate all text in your Sketch file to another language using Google Translate",
+  "main": "Live Translate.sketchplugin",
+  "scripts": {
+    "test": "test",
+    "build": "skpm build",
+    "publish": "skpm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.homeawaycorp.com:UX/sketch-translate.git"
+  },
+  "keywords": [
+    "translate",
+    "translation"
+  ],
+  "author": "Michael Daross",
+  "license": "ISC",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "manifest": "src/manifest.json",
+  "devDependencies": {
+    "skpm": "^0.9.10"
+  },
+  "dependencies": {
+    "sketch-module-fetch-polyfill": "^0.1.4"
+  }
 }

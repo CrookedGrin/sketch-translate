@@ -1,0 +1,21 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "translate",
+      "identifier": "translate-all",
+      "script": "translate.js"
+    }
+  ],
+  "menu": {
+    "title": "Sketch Translate",
+    "items": [
+      "translate-all"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "Automatically translate all text in your Sketch file to another language using Google Translate",
+  "name": "Live Translate",
+  "disableCocoaScriptPreprocessor": true
+}
